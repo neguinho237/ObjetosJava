@@ -1,0 +1,13 @@
+package animal;
+
+public class Cachorro {
+	//atributos
+	public String nome;
+	public String raça;
+	
+	//metodos
+	public void latir () {
+		System.out.println("Au Au");
+		System.out.println(nome + "latindo");
+	}
+}

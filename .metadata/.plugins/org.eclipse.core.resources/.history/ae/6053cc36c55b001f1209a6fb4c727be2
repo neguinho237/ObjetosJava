@@ -1,0 +1,7 @@
+package animal;
+
+public class Cachorro {
+	//atributos
+	public String nome;
+	public String raça;
+}

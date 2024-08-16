@@ -1,0 +1,16 @@
+package animal;
+
+public class Cachorro {
+	//atributos
+	public String nome;
+	public String raça;
+	
+	//metodos
+	public void latir (int latidos) {
+		System.out.println("Au Au");
+		System.out.println(this.nome + "latindo");
+		for (int i = 0; i < latidos; i ++) {
+			System.out.println("Au Au");
+		}
+	}
+}

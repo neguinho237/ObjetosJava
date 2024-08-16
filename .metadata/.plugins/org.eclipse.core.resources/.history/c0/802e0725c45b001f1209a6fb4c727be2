@@ -1,0 +1,14 @@
+package animal;
+
+public class TestaAnimais {
+	public static void main(String[] args) {
+		//criando um cachorro
+		Cachorro dog1 = new Cachorro();
+		dog1.nome = "Rex";
+		dog1.raça = "Labrador";
+		System.out.println(dog1.raça+ dog1.nome);
+	}
+	
+	
+	
+}
