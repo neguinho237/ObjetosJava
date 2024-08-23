@@ -6,13 +6,13 @@ public class TestaTutor {
 
       Tutor mestre = new Tutor();
       mestre.nome = "Bruno";
-      mestre.tel = "11946255192";
+      mestre.tel = "11946244892";
       mestre.endereco = "Disney-Land";
     
 
     //   criando cachorros
       Cachorro dog1 = new Cachorro();
-      dog1.nome = "Rex";
+      dog1.nome = "Kha'zix";
       dog1.raca = "Vira-lata";
       dog1.mestre = mestre;
 
