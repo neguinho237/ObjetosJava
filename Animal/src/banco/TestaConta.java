@@ -12,12 +12,12 @@ public class TestaConta {
 		
 		System.out.println(c1.exibirSaldo());
 		
-		if(c1.sacarDinheiro(200)) {
-			System.err.println("saque reaalizado com sucesso");
-		}else {
-			System.err.println("Não foi possivell realizar o saque");
-		}
-		System.out.println(c1.exibirSaldo());
+		// if(c1.sacarDinheiro(200)) {
+		// 	System.err.println("saque reaalizado com sucesso");
+		// }else {
+		// 	System.err.println("Não foi possivell realizar o saque");
+		// }
+		// System.out.println(c1.exibirSaldo());
 		
 		
 	}

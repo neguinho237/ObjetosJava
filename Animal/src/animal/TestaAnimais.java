@@ -1,5 +1,7 @@
 package animal;
 
+import javax.swing.JOptionPane;
+
 public class TestaAnimais {
 	public static void main(String[] args) {
 		//criando um cachorro

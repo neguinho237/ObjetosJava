@@ -7,7 +7,8 @@ public class Cachorro {
 	public String raca;
 	public boolean fome = true;
 	public boolean sono = true;
-    
+	
+    public Tutor mestre;
 	
 	
 	//metodos (comportamento)
@@ -45,5 +46,9 @@ public class Cachorro {
 	public void morder(Cachorro dog) {
 		dog.chorar();
 		dog.fome = true;
+	}
+
+	public void tutor (){
+
 	}
 }
