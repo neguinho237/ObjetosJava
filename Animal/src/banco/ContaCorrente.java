@@ -2,7 +2,7 @@ package banco;
 
 public class ContaCorrente {
 	public double saldo = 0.00;
-	public String titular;
+	public Cliente titular;
 	public double chequeEspecial = 1000;
 	public String agencia;
 	public String nrConta;
@@ -21,8 +21,12 @@ public class ContaCorrente {
 	private boolean verificarSaldo(double valor) {
 		return valor <= (this.saldo + this.chequeEspecial);
 	}
-	
-	public double sacarDinheiro(double valor) {
-	return verificarSaldo(valor) ? valor : 0;
-}
+
+	public boolean sacar (double valorSaque){
+		if (verificarSaldo(valorSaque)) {
+			this.saldo -= valorSaque;
+			return true;
+		}
+		return false;
+	}
 }
