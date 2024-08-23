@@ -10,7 +10,22 @@ public class Cachorro {
 	
     public Tutor mestre;
 	
-	
+	// construtuores
+	public Cachorro(){
+		this.fome = true;
+	} 
+
+	public Cachorro (String nome, String raca){
+		this();
+		this.raca = raca;
+		this.fome = true;
+	}
+
+	public Cachorro (String nome, String raca, Tutor mestre){
+		this(nome, raca);
+		this.mestre = mestre;
+	}
+
 	//metodos (comportamento)
 	
 	public void latir (int latidos) {
