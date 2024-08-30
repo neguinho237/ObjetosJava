@@ -23,7 +23,7 @@ public class TestaTutor {
       dog2.raca = "Pastor-alemão";
       dog2.mestre = mestre;
 
-      dog2.mestre.nome = "Osvaldo";
+      dog2.mestre.nome = "Xester";
       System.out.println(dog1.mestre.nome);
       System.out.println(dog2.mestre.nome);
       System.out.println(mestre.nome);
