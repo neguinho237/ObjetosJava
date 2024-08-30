@@ -76,7 +76,7 @@ public class ContaCorrente {
 			return false;
 		}
 	}
-	public void InicializarConta(){
-		
+	public void InicializarConta(Co){
+		for( int i = 0; i < )
 	}
 }

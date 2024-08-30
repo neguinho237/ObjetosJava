@@ -13,7 +13,7 @@ public class TestaArrayContas {
         do{
             System.out.println("Informe a opção desejada");
             System.out.println("1. Criar conta\n" + "2. Criar clientes\n" + "3. Associar cliente a conta\n" +
-             "4. Realizar deposito\n "+ "5. Realizar transfências\n"+ "6. Exibir dados do cliente" + "" );
+             "4. Realizar deposito\n "+ "5. Realizar transfências\n"+ "6. Exibir dados do cliente" + "Exibir dados da conta\n" + "8. Encerrar\n" );
              opcao = huf.nextInt();
              switch (opcao) {
                 case 1:
